@@ -1,4 +1,8 @@
 
+
+# path('confirm-logout-old-session/', views.confirm_logout_old_session, name='confirm_logout_old_session'),
+# path('cancel-logout-alert/', views.cancel_logout_alert, name='cancel_logout_alert'),
+
 from django.contrib.auth import logout as django_logout
 import hashlib
 
